@@ -1,0 +1,285 @@
+html, body {
+  background-image: url("../images/pixelcloudpic.webp");
+  height: fit-content;
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+}
+
+.onepiecepatternback {
+  background-image: url("../images/oldwavepattern.webp");
+  height: 120%;
+  background-size: cover;
+  background-position: center;
+}
+
+.demonslayerpatternback {
+  background-image: url("../images/tanjiropatternpic.webp");
+  height: 130%;
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  font-weight: bolder;
+  font-size: 2.5em;
+}
+
+h2 {
+  font-weight: 900;
+  text-decoration: none;
+  color: rgb(147, 64, 255);
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  font-size: 2em;
+  text-align: center;
+}
+
+.hakipagetitle {
+  color: #bd1000;
+}
+
+.trentemailanchor {
+  font-weight: 900;
+  text-decoration: none;
+  color: rgb(147, 64, 255);
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  font-size: 2em;
+  text-align: center;
+}
+
+.demonslayerheadertag {
+  font-weight: 900;
+  text-decoration: none;
+  color: white;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  font-size: 2em;
+  text-align: center;
+}
+
+p {
+  font-family: Optima, sans-serif;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+
+h3 {
+  font-weight: bolder;
+  color: rgb(147, 64, 255);
+  font-family: Verdana, sans-serif;
+}
+
+.resumetitlebox {
+  margin: auto;
+  width: 20%;
+  padding: 10px;
+  border: 5px solid blue;
+  border-color: rgb(87, 0, 201);
+}
+
+h4 {
+  font-size: 1.3em;
+  font-family: DejaVu Sans Mono, monospace;
+  font-weight: bolder;
+  text-decoration: none;
+  color: red;
+}
+
+li {
+  font-family: DejaVu Sans Mono, monospace;
+}
+
+#resumepic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 4px solid white;
+  padding: 10px;
+}
+ 
+#trentresumediv {
+  margin: auto;
+  width: 30%;
+  border: 4px solid white;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+.onepiecehakidiv {
+  margin: auto;
+  width: 70%;
+  border: 0px;
+  border-radius: 12px;
+  padding: 30px;
+  text-align: center;
+}
+
+#squaredemonslayer {
+  display: block;
+  margin: auto;
+  border: none;
+  padding: 10px;
+  width: 80%;
+}
+
+.demonslayertext {
+  font-weight: bold;
+  color: black;
+  font-size: 1.2em;
+}
+
+.demonslayerbackboxcolor {
+  background-color: #ffa1f6;
+  margin: 2.5% 0 2.5% 0;
+  width: 80%;
+  border: 6px solid white;
+  border-color: black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.onepiecebackboxcolor {
+  background-color: #b3ffad;
+  margin: 2.5% 0 2.5% 0;
+  width: 80%;
+  border: 6px solid white;
+  border-color: black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.decorpicture {
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.onepiecepicture {
+  width: 50%;
+  height: 50%;
+  float: left;
+}
+
+.zenitsupicture {
+  width: 100%;
+  height: 75%;
+  display: block;
+  float: inherit;
+}
+
+.rightsideoppicture {
+  width: 55%;
+  height: 20%;
+  float: right;
+}
+
+#hakivideo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 4px solid white;
+  padding: 10px;
+  width: 58%;
+}
+
+#horznavi {
+  overflow: hidden;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#horznavi-container {
+  text-align: center;
+}
+    
+#horznavi ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#horznavi ul li {
+  float: left;
+  margin: 0 15px;
+}
+
+#horznavi ul li a {
+  display: block;
+  background-color: #7a0dff;
+  color: black;
+  font-weight: bolder;
+  text-decoration: none;
+  text-align: center;
+  width: 100px;
+  padding: 10px 0px 8px 0px;
+  border-radius: 4px;
+  font-size: 1.2em;
+}
+
+#horznavi ul li a:hover {
+  background-color: black;
+  color: yellow;
+  border-radius: 20px;
+}
+
+#horznavi #onpage {
+  text-decoration: underline;
+}
+
+#first-fixed-wrapper {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#second-fixed-wrapper {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#fixed-main {
+  float: left;
+  width: 550px;
+  margin: 0 20px;
+}
+
+#fixed-extras {
+  float: left;
+  width: 40%;
+  margin: 0 1% 0 0;
+}
+
+#fixed-header {
+  padding: 15px;
+}
+
+#fluid-links {
+  float: left;
+  width: 22.5%;
+  margin: 0 0 0 2.5%; 
+}
+
+#fluid-main {
+  float: left;
+  width: 45%;
+  margin: 0 2.5%;
+}
+
+#fluid-news {
+  float: left;
+  width: 22.5%;
+  margin: 0 2.5% 0 0;
+}
+
+#fluid-header {
+  padding: 15px;
+}
