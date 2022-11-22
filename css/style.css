@@ -301,3 +301,26 @@ body {
   margin: 0;
   padding: 0;
 }
+
+
+@media screen and (min-width: 800px) {
+  h1 {
+    color: white;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-weight: bolder;
+    font-size: 2.5em;
+  }
+  
+}
+
+@media screen and (min-width: 600px) {
+  h1 {
+    color: black;
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 3em;
+  }
+  
+  
+  
+}
