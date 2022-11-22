@@ -302,7 +302,7 @@ body {
   padding: 0;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 800px) {
   h1 {
     color: white;
     font-family: monospace;
@@ -346,7 +346,7 @@ body {
 
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1200px) {
   h1 {
     color: black;
     font-family: monospace;
