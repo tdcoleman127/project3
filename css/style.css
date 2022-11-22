@@ -291,3 +291,9 @@ li {
 #map {
   height: 100%;
 }
+
+#page4special {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
