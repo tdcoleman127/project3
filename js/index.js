@@ -11,6 +11,4 @@ function initMap() {
   });
 }
 
-{ lat: 42.058890, lng: -87.749071 }
-
 window.initMap = initMap;
