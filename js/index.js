@@ -5,10 +5,12 @@ function initMap() {
   });
 
   new google.maps.Marker({
-    position: new google.maps.LatLng(42.058890, -87.749071),
+    position: { lat: 42.058890, lng: -87.749071 },
     map,
     title: "Hello World!",
   });
 }
+
+{ lat: 42.058890, lng: -87.749071 }
 
 window.initMap = initMap;
