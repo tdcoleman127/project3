@@ -8,7 +8,7 @@ function initMap() {
 window.initMap = initMap;
 
 function initMap() {
-  const myLatLng = { lat: -25.363, lng: 131.044 };
+  const myLatLng = { lat: 42.058966920218346, lng: -87.74932121056031 };
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 4,
     center: myLatLng,
