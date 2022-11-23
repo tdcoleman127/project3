@@ -6,7 +6,7 @@ function initMap() {
 
   new google.maps.Marker({
     position: new google.maps.LatLng(42.029070294972136, -87.73009732985915),
-    map: map,
+    map,
     title: "Hello World!",
   });
 }
