@@ -22,6 +22,9 @@ function initMap() {
     title: "Big Park!",
   });
   
+  
+  
+  /*Markers*/
   const infowindow = new google.maps.InfoWindow({
     content: "This is the Old Orchard Mall!! XOXOLOLLMAOGG"
   });
@@ -35,6 +38,23 @@ function initMap() {
       clicks = clicks + 1;
     } else {
       infowindow.open(map, mallMarker);
+      clicks = 0;
+    }
+  });
+  ---------------------------------------------------
+  const infowindow = new google.maps.InfoWindow({
+    content: "This is the Lincolnwood Town Center!! XOXOLOLLMAOGG I went here when I was little, a very good mini mall!"
+  });
+  
+  infowindow.open(map, mallMarker);
+  
+  var clicks = 0;
+  townMarker.addListener("click", () => {
+    if (clicks == 0) {
+      infowindow.close();
+      clicks = clicks + 1;
+    } else {
+      infowindow.open(map, townMarker);
       clicks = 0;
     }
   });
