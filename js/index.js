@@ -46,18 +46,19 @@ function initMap() {
     content: "This is the Lincolnwood Town Center!! XOXOLOLLMAOGG I went here when I was little, a very good mini mall!"
   });
   
-  infowindowTwo.open(map, mallMarker);
+  infowindowTwo.open(map, townMarker);
   
-  var clicks = 0;
+  var townClicks = 0;
   townMarker.addListener("click", () => {
-    if (clicks == 0) {
+    if (townClicks == 0) {
       infowindowTwo.close();
-      clicks = clicks + 1;
+      townClicks = townClicks + 1;
     } else {
       infowindowTwo.open(map, townMarker);
-      clicks = 0;
+      townClicks = 0;
     }
   });
+  
   
 }
 
