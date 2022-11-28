@@ -31,14 +31,13 @@ function initMap() {
   var clicks = 0;
   mallMarker.addListener("click", () => {
     if (clicks == 0) {
-    infowindow.close();
-    clicks = clicks + 1;
+      infowindow.close();
+      clicks = clicks + 1;
     } else {
       infowindow.open(map, mallMarker);
       clicks = 0;
     }
   });
-  
   
 }
 
