@@ -42,7 +42,7 @@ function initMap() {
     }
   });
   ---------------------------------------------------
-  const infowindow = new google.maps.InfoWindow({
+  const infowindowTwo = new google.maps.InfoWindow({
     content: "This is the Lincolnwood Town Center!! XOXOLOLLMAOGG I went here when I was little, a very good mini mall!"
   });
   
