@@ -25,7 +25,7 @@ function initMap() {
   
   
   /*Markers*/
-  const infowindow = new google.maps.InfoWindow({
+  var infowindow = new google.maps.InfoWindow({
     content: "This is the Old Orchard Mall!! XOXOLOLLMAOGG"
   });
   
@@ -41,8 +41,8 @@ function initMap() {
       clicks = 0;
     }
   });
-  ---------------------------------------------------
-  const infowindowTwo = new google.maps.InfoWindow({
+
+  var infowindowTwo = new google.maps.InfoWindow({
     content: "This is the Lincolnwood Town Center!! XOXOLOLLMAOGG I went here when I was little, a very good mini mall!"
   });
   
