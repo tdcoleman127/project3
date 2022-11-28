@@ -29,12 +29,12 @@ function initMap() {
   infowindow.open(map, mallMarker);
   
   var clicks = 0;
-  marker.addListener("click", () => {
+  mallMarker.addListener("click", () => {
     if (clicks == 0) {
     infowindow.close();
     clicks = clicks + 1;
     } else {
-      infowindow.open(map, marker);
+      infowindow.open(map, mallMarker);
       clicks = 0;
     }
   });
